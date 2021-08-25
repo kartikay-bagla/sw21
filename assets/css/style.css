@@ -696,7 +696,7 @@ textarea.form-control {
     color-stop(80%, rgba(0, 0, 0, 0)),
     color-stop(80%, #ff2d55)
   );
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #ff2d55 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #0F9D58 80%);
   background-size: 100px 1.2em !important;
 }
 .main-banner-content h1 b:nth-of-type(1) {
@@ -3364,7 +3364,7 @@ textarea.form-control {
 }
 .pricing-table-box .pricingTable-header {
   padding: 30px 15px 10px;
-  background: #ff2d55;
+  background: #4285F4;
   -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
   clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
   position: relative;
@@ -3490,12 +3490,19 @@ textarea.form-control {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+.col-lg-4:nth-child(1) .pricing-table-box .pricingTable-header {
+  background: #4285F4;
+}
+.col-lg-4:nth-child(1) .pricing-table-box .btn-primary::before,
+.col-lg-4:nth-child(1) .pricing-table-box .btn-primary::after {
+  background: #4285F4;
+}
 .col-lg-4:nth-child(2) .pricing-table-box .pricingTable-header {
-  background: #00acee;
+  background: #DB4437;
 }
 .col-lg-4:nth-child(2) .pricing-table-box .btn-primary::before,
 .col-lg-4:nth-child(2) .pricing-table-box .btn-primary::after {
-  background: #00acee;
+  background: #DB4437;
 }
 .col-lg-4:nth-child(2) .pricing-plan h3 {
   background: #00acee;
@@ -3508,11 +3515,11 @@ textarea.form-control {
   background: #00acee;
 }
 .col-lg-4:nth-child(3) .pricing-table-box .pricingTable-header {
-  background: #8dc63f;
+  background: #F4B400;
 }
 .col-lg-4:nth-child(3) .pricing-table-box .btn-primary::before,
 .col-lg-4:nth-child(3) .pricing-table-box .btn-primary::after {
-  background: #8dc63f;
+  background: #F4B400;
 }
 .col-lg-4:nth-child(3) .pricing-plan h3 {
   background: #8dc63f;
@@ -3525,11 +3532,11 @@ textarea.form-control {
   background: #8dc63f;
 }
 .col-lg-4:nth-child(4) .pricing-table-box .pricingTable-header {
-  background: #fc24bb;
+  background: #0F9D58;
 }
 .col-lg-4:nth-child(4) .pricing-table-box .btn-primary::before,
 .col-lg-4:nth-child(4) .pricing-table-box .btn-primary::after {
-  background: #fc24bb;
+  background: #0F9D58;
 }
 .col-lg-4:nth-child(4) .pricing-plan h3 {
   background: #fc24bb;
